@@ -123,6 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   car: {fileID: 7085460630238156685, guid: 6d4589dc9441a894fa3062b4c6855966, type: 3}
   time: 5
+  countOfNewCars: 3
+  enemyHealthBar: {fileID: 2100000, guid: 134efd4b27c09d54e989f4b253ed63d4, type: 2}
 --- !u!4 &7905950623432360675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: de85eddaa2e7e2748a034a514b352ac4, type: 3}

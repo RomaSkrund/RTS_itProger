@@ -385,7 +385,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1695694070893898164
 Transform:
   m_ObjectHideFlags: 0
@@ -751,6 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 70
+  shootingSpeed: 1
   bullet: {fileID: 1720932187995192027, guid: a1daafdc9c4e38e43987bef0a62090de, type: 3}
 --- !u!54 &7932849710886806824
 Rigidbody:

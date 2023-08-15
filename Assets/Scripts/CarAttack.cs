@@ -9,6 +9,7 @@ public class CarAttack : MonoBehaviour
     [NonSerialized] public int _health = 100;
 
     public float radius = 70f;
+    public float shootingSpeed = 1f;
     private Coroutine _coroutine = null;
     public GameObject bullet;
 
@@ -54,7 +55,7 @@ public class CarAttack : MonoBehaviour
     {
         GameObject obj = Instantiate(bullet, transform.GetChild(1).position, Quaternion.identity);
         obj.GetComponent<BulletController>().position = enemyPosition.transform.position;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(shootingSpeed);
         StopCoroutine(_coroutine);
         _coroutine = null;
 

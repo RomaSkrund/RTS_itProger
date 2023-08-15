@@ -3,7 +3,9 @@ guid: e53e2581ed2c8dd49a7855df03000fa6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - car: {instanceID: 0}
+  - enemyHealthBar: {fileID: 2100000, guid: 134efd4b27c09d54e989f4b253ed63d4, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

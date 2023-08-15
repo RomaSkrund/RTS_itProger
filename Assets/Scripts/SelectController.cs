@@ -96,7 +96,6 @@ public class SelectController : MonoBehaviour
 
                 players.Add(element.transform.gameObject);
 
-                element.transform.GetChild(0).gameObject.SetActive(true);
                 element.transform.GetChild(2).gameObject.SetActive(true);
             }
 
