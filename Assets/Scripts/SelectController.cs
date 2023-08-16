@@ -39,7 +39,6 @@ public class SelectController : MonoBehaviour
             {
                 if (el != null)
                 {
-                    el.transform.GetChild(0).gameObject.SetActive(false);
                     el.transform.GetChild(2).gameObject.SetActive(false);
                 }
             }

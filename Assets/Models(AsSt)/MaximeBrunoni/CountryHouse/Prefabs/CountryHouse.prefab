@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7141927108607896883}
   - component: {fileID: -7670296620074629633}
+  - component: {fileID: -6100211272662094517}
   m_Layer: 0
   m_Name: CountryHouse
   m_TagString: Untagged
@@ -48,6 +49,21 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 128
+  rotateSpeed: 60
+--- !u!136 &-6100211272662094517
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4870010141513049078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 6.37
+  m_Height: 5.19
+  m_Direction: 1
+  m_Center: {x: -0.19, y: 1.43, z: 0}
 --- !u!1001 &8757381479981316564
 PrefabInstance:
   m_ObjectHideFlags: 0
