@@ -33,6 +33,7 @@ public class PlaceObjets : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            if (gameObject.GetComponent<AutoCarCreate>())
             gameObject.GetComponent<AutoCarCreate>().enabled = true;
             // активация скрипта создающего машины 
             Destroy(gameObject.GetComponent<PlaceObjets>());
